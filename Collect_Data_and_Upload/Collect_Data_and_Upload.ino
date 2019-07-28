@@ -94,7 +94,6 @@ void Write_ThingSpeak_Data(String tempValue, String humiValue, String luxValue){
   http.begin(upLink);  //Specify request destination
   int httpCode = http.GET();  //Send the GET request
   http.end();   //Close connection
-  delay(15000);    //Send a request every 15 seconds
 }
 
 void getTemperatureHumidity(void){
@@ -145,4 +144,5 @@ void loop() {
   getBH1750();
   Write_ThingSpeak_Data(String(temperature), String(humidity), String(lux));
   digitalWrite(LED,HIGH);
+  delay(15000);    //Send a request every 15 seconds
 }
