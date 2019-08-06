@@ -3,6 +3,7 @@ Collect the temperature, humidity and light intensity data and upload to the thi
 
 Download the necessary librarys : 
   *DHT.h --> https://github.com/markruys/arduino-DHT/archive/master.zip 
+  
   *TingSpeak.h --> https://www.arduinolibraries.info/libraries/thing-speak
   
  Component Used - 
