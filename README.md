@@ -18,6 +18,6 @@ Download the necessary librarys :
     OUT    -   Pin D0
 
    BH1750 -   
-     SCL    -   Pin D1
-     SDA    -   Pin D2
-     ADD    -   NC4
+      SCL    -   Pin D1
+      SDA    -   Pin D2
+      ADD    -   NC4
