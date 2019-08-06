@@ -19,5 +19,7 @@ Download the necessary librarys :
 
    BH1750 -   
       SCL    -   Pin D1
+      
       SDA    -   Pin D2
+      
       ADD    -   NC4
